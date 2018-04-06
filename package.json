@@ -1,0 +1,19 @@
+{
+  "name": "cordova-detect-repackaging",
+  "version": "1.0.0",
+  "description": "Cordova plugin for detect app repackaging",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "cordova",
+    "android",
+    "repack",
+    "repackaging",
+    "piracy",
+    "security"
+  ],
+  "author": "Luca Campana",
+  "license": "ISC"
+}

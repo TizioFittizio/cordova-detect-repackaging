@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-detect-repackaging" version="0.2.3">
+    <name>CordovaDetectRepackaging</name>
+    <description>Cordova Detect Repackaging Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,android,repack,repackaging,piracy,security</keywords>
+    <js-module src="www/device.js" name="device">
+        <clobbers target="device" />
+    </js-module>
+    <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='MainActivity']" mode="overwrite">
+        <activity android:name="MainActivity" android:label="NewLabel" android:configChanges="orientation|keyboardHidden" />
+    </edit-config>
+</plugin>
